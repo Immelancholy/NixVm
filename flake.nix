@@ -81,7 +81,7 @@
   } @ inputs: let
     system = "x86_64-linux";
     user = "";
-    defaultpass = "password"; #(just leave this, if you want to change the password use mkpassword in the vm!)
+    defaultpass = "password"; #(just leave this, if you want to change the password use passwd in the vm!)
     git = "";
     email = "";
     nixos = nixpkgs.lib.nixosSystem {
