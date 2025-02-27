@@ -76,7 +76,7 @@
     isNormalUser = true;
     description = "mela";
     extraGroups = ["networkmanager" "wheel"];
-    defaultPassword = "${defaultpass}";
+    initialPassword = "${defaultpass}";
   };
 
   users.defaultUserShell = pkgs.zsh;
